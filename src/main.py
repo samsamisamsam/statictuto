@@ -1,9 +1,9 @@
 from textnode import TextNode
 
+
 def main():
-    node_dummy = TextNode("This is a test node",
-                          "bold",
-                           "https://www.boot.dev")
-    print(node_dummy)
+    node = TextNode("This is a text node", "bold", "https://www.boot.dev")
+    print(node)
+
 
 main()
